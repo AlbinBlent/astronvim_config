@@ -19,4 +19,11 @@ return {
     end,
     event = "User AstroFile",
   },
+  {
+    "catppuccin/nvim",
+    -- optionally, override the default options:
+    dependencies = {},
+    config = function() require("catppuccin").setup {} end,
+    event = "VeryLazy",
+  },
 }

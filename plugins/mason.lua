@@ -13,7 +13,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      ensure_installed = { "prettier", "stylua", "eslint", "prettierd", "rustywind" },
+      ensure_installed = { "stylua", "eslint", "prettierd", "rustywind" },
     },
   },
   {
